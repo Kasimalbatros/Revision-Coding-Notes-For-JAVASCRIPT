@@ -1,0 +1,30 @@
+34. Prime Number   ?   
+
+Code...
+
+function f(num) {
+    // Check if num is less than 2, as 0 and 1 are not prime
+    if (num < 2) {
+        return false;
+    }
+    // Check for divisibility from 2 to the square root of num
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i === 0) {
+            return false; // If divisible by any number, it's not prime
+        }
+    }
+    return true; // If not divisible by any number, it's prime
+}
+
+// Example usage:
+const zxc = 17;
+if (f(zxc)) {
+    console.log(zxc + " is a prime number.");
+} else {
+    console.log(zxc + " is not a prime number.");
+}
+
+
+output:- 
+
+17 is a prime number.

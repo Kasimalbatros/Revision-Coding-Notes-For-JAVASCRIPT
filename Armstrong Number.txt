@@ -1,0 +1,45 @@
+Armstrong Number   ?
+It means Number integer entered is the power to each number sum is equal.
+
+Code...
+
+function f(num) {
+    const numStr = num.toString();
+    const numDigits = numStr.length;
+    let sum = 0;
+
+    for (let i = 0; i < numDigits; i++) {
+        sum += Math.pow(parseInt(numStr[i]), numDigits);
+    }
+
+    return sum === num;
+}
+
+// Example usage:
+const zxc = 153;
+if (f(zxc)) {
+    console.log(zxc + " is an Armstrong number.");
+} else {
+    console.log(zxc + " is not an Armstrong number.");
+}
+
+--------------------------------------------------------------------------------------------------
+Logic behind the code...
+
+javascript
+Copy code
+    for (let i = 0; i < numDigits; i++) {
+        sum += Math.pow(parseInt(numStr[i]), numDigits);
+    }
+This loop iterates through each digit of the number. Inside the loop, 
+parseInt(numStr[i]) converts each digit back to a number, and Math.pow(base, exponent) 
+raises it to the power of numDigits. 
+This result is added to sum.
+
+javascript
+Copy code
+
+    return sum === num;
+
+Finally, the function returns true if sum is equal to the original
+number num, indicating that it's an Armstrong number. Otherwise, it returns false.

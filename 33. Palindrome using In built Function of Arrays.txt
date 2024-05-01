@@ -1,0 +1,55 @@
+33. Palindrome   ?
+Palindrome means string from last to first and first to last remains same.
+Ex:- madam , cyc.
+
+
+In this Code...( We use Build in function of Array like Split(),reverse(),join())
+
+function f(){
+    var a=userA.split('');    // Convert the Strings into an Array.
+    var rev=a.reverse();       // Reverse the Given Array.
+    var revString=rev.join(''); // Join or combine Array to String
+    if(userA==revString){       // Original String == reverse String then Palindrome
+        return "Palindrome";
+    }
+    else{
+        return "Not Palindrome";
+    }
+}
+const userA=prompt("Enter the string to check palindrome :  ");
+const zxc=f(userA);
+console.log(zxc);
+
+
+
+output:-
+
+Enter the string to check palindrome :  madam
+Palindrome
+---------------------------------------------------------------------------------------------
+Logic behind the Program
+
+var a=userA.split('');    // Convert the Strings into an Array.
+    var rev=a.reverse();       // Reverse the Given Array.
+    var revString=rev.join(''); // Join or combine Array to String
+    if(userA==revString){       // Original String == reverse String then Palindrome
+
+--------------------------------------------------------------------------------------------
+Or We Have Another simple Code for Creating Palindrome(Alternative Code)...
+
+code...
+
+function f(str) {
+    var reversed = str.split('').reverse().join('');
+    if (str === reversed) {
+        return "Palindrome";
+    } else {
+        return "Not Palindrome";
+    }
+}
+
+const string = prompt("Enter the string to check palindrome: ");
+const result = f(string);
+console.log(result);
+
+Output:- // Same as above

@@ -1,0 +1,28 @@
+39. Last AND the Most Important Concept tips  ?
+
+Best Startegy to Master Coding(And Prepare For your Interview)
+----------------------------------------------------------------------------------------
+1.Do Coding practice 1 hr atleast Daily.
+2.Explore leet code and Solve Easy and Medium questions regarding javascript.
+(Practicing Different questions boost your confidence and know the Logic)
+3. Explore Hakerrank,codingNinja,codechef, etc.
+4.Try different different platform to practice coding questions  ?
+5. ALways try to Learn the logic :- I mean to say that when you have to use
+arrays,strings,loops,print return value.
+6. Always Learn Methods of Data structure this will help to think how can you solve
+problem and whats your approach.
+ex: Arrays data structue having methods like Push,pop,shift,unshift,split(''),reverse(),
+join('').
+for other data structure same you must have to learn the methods.
+7. You (Kasim) already created Complete HTML, CSS, Bootstrap and Javascript Notes
+Follow your notes for revision.
+
+8. At last, whenever you are ready for your interview then prepare this things like
+---> 1. Know Everything About your project which you had created
+	what is the use? why we use? is there any alternative?
+---> 2. Learn Top Hundred (100) Interviewed questions for each particular language
+        like HTML,CSS,Bootstarp,Javascript?
+---->3. Be Confident With your Communication SKills.
+
+-------------------->  AT  The End <------------------------------------------------
+-----------------> Allah Will Decide Your Future <----------------------------------
