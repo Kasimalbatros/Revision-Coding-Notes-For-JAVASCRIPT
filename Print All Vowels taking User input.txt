@@ -1,0 +1,24 @@
+Print All Vowels taking User input    ?
+
+
+Code ....
+
+
+function f(str){
+    for(let j of str){
+        if(j==="a"||j==="e"||j==="i"||j==="o"||j==="u"){
+            console.log(j);
+        }
+    }
+}
+var userA=prompt("enter the name : ");
+var zxc=f(userA);
+return zxc;
+
+
+
+Output:- 
+
+enter the name : kasim
+a
+i

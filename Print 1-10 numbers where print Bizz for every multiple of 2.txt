@@ -1,0 +1,26 @@
+Print 1-10 numbers where print Bizz for every multiple of 2  ?
+
+code...
+
+for(var i=1;i<=10;i++){
+    if(i%2==0){
+        console.log("Bizz");
+    }else
+    {
+        console.log(i);
+    }
+}
+
+
+output:-    
+
+1
+Bizz
+3
+Bizz
+5
+Bizz
+7
+Bizz
+9
+Bizz

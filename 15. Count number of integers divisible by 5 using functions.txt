@@ -1,0 +1,21 @@
+15. Count number of integers divisible by 5 using functions  ?
+
+code...
+
+var count=0;
+function f(){
+    for(var i=1;i<=100;i++){
+        if(i%5==0){
+            count++;
+        }
+    }
+    return count;
+}
+var zxc=f();              //return count value stored in zxc.
+console.log("count number of integers divible by 5 from 1 to 100:  "+zxc);
+
+
+
+output:-
+
+count number of integers divible by 5 from 1 to 100:   20

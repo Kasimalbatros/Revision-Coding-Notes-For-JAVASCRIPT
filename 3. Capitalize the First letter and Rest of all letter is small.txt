@@ -1,0 +1,9 @@
+3. Capitalize the First letter and Rest of all letters are small   ?
+
+var a=prompt("enter the name : ");
+var b=a.slice(0,1);
+var c=b.toUpperCase();
+var d=a.slice(1,a.length);
+var z=d.toLowerCase();
+var e=c.concat(z);
+console.log(e);

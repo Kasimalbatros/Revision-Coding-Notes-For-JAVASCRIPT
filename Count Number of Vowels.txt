@@ -1,0 +1,22 @@
+1.Code number of vowels present in user input values  ?
+
+
+Code...
+
+var count=0;
+function f(str){
+    for(let j of str){           // for of loop is used to read whole string...
+        if(j==="a"||j==="e"||j==="i"||j==="o"||j==="u"){
+            count++;
+        }
+    }
+    return count;
+}
+var userA=prompt("enter the name : ");
+var zxc=f(userA);
+console.log("count total number of vowels   "+zxc);
+
+Output:-
+
+enter the name : kasim
+count total number of vowels   2

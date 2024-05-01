@@ -1,0 +1,26 @@
+17. Count number of integers divisible by n from 1 to 100   ? (Most Important !)...
+
+------> One Code can Solve all problem for divisibility  .
+
+-----------------------------------------------------------------------------------------------
+
+code...
+
+var count=0;
+function f(n){
+    for(var i=1;i<=100;i++){
+        if(i%n==0){
+            count++;
+        }
+    }
+    return count;
+}
+var userA=parseInt(prompt("enter any integer which you want to check : "))
+var zxc=f(userA);
+console.log("count number of integers divible by "+userA+" from 1 to 100:   "+zxc);
+
+
+output:-
+
+enter any integer which you want to check : 9
+count number of integers divible by 9 from 1 to 100:   11

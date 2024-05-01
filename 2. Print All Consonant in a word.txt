@@ -1,0 +1,24 @@
+2. Print All Consonant in a word   ?
+
+code...
+
+function f(str){
+    for(let j of str){
+        if(j==="a"||j==="e"||j==="i"||j==="o"||j==="u"){   //console.log(j); written after if statement then it prints all vowels of word.
+           
+        }else{                   //console.log(j); written inside else statement then it prints all consonant of word.
+             console.log(j);
+        }
+    }
+}
+var userA=prompt("enter the name : ");
+var zxc=f(userA);
+return zxc;
+
+
+output:-
+
+enter the name : kasim
+k
+s
+m

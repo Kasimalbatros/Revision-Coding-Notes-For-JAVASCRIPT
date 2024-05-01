@@ -1,0 +1,24 @@
+1.Count number of Consonants present in user input values   ?
+
+Code...
+
+var count=0;
+function f(str){
+    for(let j of str){                                  //if we write count++ after if  statement then it counts the vowels.      
+        if(j==="a"||j==="e"||j==="i"||j==="o"||j==="u"){ 
+        }else{                                           // written count++ after else which counts the consonant.
+            count++;
+        }
+    }
+    return count;
+}
+var userA=prompt("enter the name : ");
+var zxc=f(userA);
+console.log("count total number of vowels   "+zxc);
+
+
+
+Output:-
+
+enter the name : kasim
+count total number of vowels   3

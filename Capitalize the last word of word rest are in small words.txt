@@ -1,0 +1,9 @@
+Capitalize the last word of word rest are in small words   ?
+
+var a=prompt("enter the name : ");
+var b=a.slice(0,a.length-1);
+var c=b.toLowerCase();
+var d=a.slice(a.length-1,a.length);
+var z=d.toUpperCase();
+var e=c.concat(z);
+console.log(e);

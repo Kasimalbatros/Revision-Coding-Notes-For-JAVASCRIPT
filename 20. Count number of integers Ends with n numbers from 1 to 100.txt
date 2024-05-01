@@ -1,0 +1,25 @@
+20. Count number of integers Ends with n number from 1 to 100   ?  (Most Important)
+
+Single code can give you ends with number from 1 to 100(1 code for all problems)
+-----------------------------------------------------------------------------------------
+
+code...
+
+var count=0;
+function f(n){
+    for(var i=1;i<=100;i++){
+        if(i%10==n){
+            count++;
+        }
+    }
+    return count;
+}
+var userA=parseInt(prompt("Enter any integer from which the integer ends with : "));
+var zxc=f(userA);
+console.log("Count number of integers ends with "+userA+" from 1 to 100:   "+zxc);
+
+
+output:-
+
+Enter any integer from which the integer ends with : 9
+Count number of integers ends with 9 from 1 to 100:   10

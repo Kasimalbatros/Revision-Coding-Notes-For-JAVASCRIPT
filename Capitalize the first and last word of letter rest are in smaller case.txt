@@ -1,0 +1,11 @@
+Capitalize the first and last word of letter rest are in smaller case  ?
+
+var a=prompt("enter the name : ");
+var m=a.slice(0,1);
+var n=m.toUpperCase();
+var b=a.slice(1,a.length-1);
+var c=b.toLowerCase();
+var d=a.slice(a.length-1,a.length);
+var z=d.toUpperCase();
+var q=n+c+z;
+console.log(q);

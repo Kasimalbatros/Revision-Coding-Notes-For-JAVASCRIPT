@@ -1,0 +1,11 @@
+Capitalize the middle words only First and last letter are in small cases   ?
+
+var a=prompt("enter the name : ");
+var m=a.slice(0,1);
+var n=m.toLowerCase();
+var b=a.slice(1,a.length-1);
+var c=b.toUpperCase();
+var d=a.slice(a.length-1,a.length);
+var z=d.toLowerCase();
+var q=n+c+z;
+console.log(q);

@@ -1,0 +1,20 @@
+19.Count number of integers Ends with 7 number from 1 to 100   ?
+
+code...
+
+var count=0;
+function f(){
+    for(var i=1;i<=100;i++){
+        if(i%10==7){
+            count++;
+        }
+    }
+    return count;
+}
+var zxc=f();
+console.log("Count number of integers ends with 7 from 1 to 100:   "+zxc);
+
+
+output:-
+
+Count number of integers ends with 7 from 1 to 100:   10

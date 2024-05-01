@@ -1,0 +1,20 @@
+18.Count number of integers Ends with 5 number from 1 to 100  ?
+
+code...
+
+var count=0;
+function f(){
+    for(var i=1;i<=100;i++){
+        if(i%10==5){
+            count++;
+        }
+    }
+    return count;
+}
+var zxc=f();
+console.log("Count number of integers ends with 5 from 1 to 100:   "+zxc);
+
+
+output:-
+
+Count number of integers ends with 5 from 1 to 100:   10

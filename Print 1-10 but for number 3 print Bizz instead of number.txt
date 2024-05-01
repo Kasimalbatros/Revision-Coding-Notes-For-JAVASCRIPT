@@ -1,0 +1,27 @@
+Print 1-10 but for number 3 print Bizz instead of number   ?
+
+code...
+
+for(var i=0;i<=10;i++){
+    if(i==3){
+        console.log("Bizz");
+    }else
+    {
+        console.log(i);
+    }
+}
+
+
+output:-
+
+0
+1
+2
+Bizz
+4
+5
+6
+7
+8
+9
+10

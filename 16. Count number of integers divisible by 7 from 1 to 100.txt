@@ -1,0 +1,23 @@
+16. Count number of integers divisible by 7 from 1 to 100...   ?
+
+
+code...
+
+
+var count=0;
+function f(){
+    for(var i=1;i<=100;i++){
+        if(i%7==0){
+            count++;
+        }
+    }
+    return count;
+}
+var zxc=f();
+console.log("count number of integers divible by 7 from 1 to 100:   "+zxc);
+
+
+output:-
+
+count number of integers divible by 5 from 1 to 100:   14
+
