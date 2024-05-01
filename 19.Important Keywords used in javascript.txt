@@ -1,0 +1,25 @@
+Important Keywords used in javascript   ?
+
+1.prompt is used to display a dialog box where the user can enter values for 'a' and 'b'.
+Ex:-
+var a= prompt("enter the value");
+
+2.parseInt is used to convert the user input (which is initially a string)
+ into an integer, assuming the user enters numeric values.
+Ex:-
+
+function f(a, b) {
+    var z = a + b;
+    return z;
+}
+
+var userInputA = parseInt(prompt("Enter the value for 'a':"));
+var userInputB = parseInt(prompt("Enter the value for 'b':"));
+
+var zxc = f(userInputA, userInputB);
+console.log(zxc);
+
+
+3.Math.round()  ---> give random values from 0-0.99(16 digit).
+4.Math.floor()   ---> give exact values.
+5.Math.pow(height,2); ---> it means height * height

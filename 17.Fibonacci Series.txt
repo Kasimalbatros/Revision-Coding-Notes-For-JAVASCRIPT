@@ -1,0 +1,108 @@
+Fibonacci series ?
+
+code...
+Method 1
+
+var prev=0;
+var curr=1;
+
+function f(n){
+    for(var i=0;i<n;i++){
+        if(i==0){
+            console.log(0)
+        }
+        else if(i==1){
+            console.log(1);
+        }
+        else{
+        var next=prev+curr;
+        prev=curr;
+        curr=next;
+        console.log(curr);
+        }
+        
+    }
+}
+var zxc=f(10);
+return zxc;
+
+output:-
+
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+
+----------------------------------------------------------------------------------------------
+Method 2 to create Fcatorial of number ?
+
+Code...
+
+var prev=0;
+var curr=1;/*Initially, prev is 0 and curr is 1 (representing the first two Fibonacci numbers).*/
+function a(limit){
+    var zxc=[];
+    for(var i=0;i<=limit;i++){
+        var z=zxc.push(curr);
+        var next=prev+curr;/*We calculate next as prev + curr, which is 0 + 1, resulting in next being 1.*/
+        prev=curr;/*We update prev to be curr, which means prev becomes 1.*/
+        curr=next;/*We update curr to be next, which means curr becomes 1.*/
+        
+        
+    }
+    console.log(zxc);
+}
+const limit = 10;
+const zxc= a(limit);
+
+console.log(a);
+
+-------------------
+output:-
+
+[
+   1,  1,  2,  3,
+   5,  8, 13, 21, 34,
+  55, 89
+]
+
+-------------------------------------------------------------------------------------
+but if you want output  :-
+
+[
+   0,  1,  1,  2,  3,
+   5,  8, 13, 21, 34,
+  55, 89
+]
+
+
+then simply ADD
+
+    var q=zxc.unshift(prev);   //after var zxc=[]; in above code.
+				//unshift function simply add element starting of array.
+---------------------------------------------------------------------------------------------------
+
+Logic Of Fibonacci series.
+
+--->(we need collection of elements of fibonnaci series)
+
+1.create array
+2.using array so that we can push elements one by one using push().
+3.using for loop(executes and check repeatedly)
+
+
+var next=prev+curr;/*We calculate next as prev + curr, which is 0 + 1, resulting in next being 1.*/
+        prev=curr;/*We update prev to be curr, which means prev becomes 1.*/
+        curr=next;/*We update curr to be next, which means curr becomes 1.*/
+
+
+
+fibonacciSeries.push(curr);
+explain why curr insead of next
+//We update curr to be next, which means curr becomes 1

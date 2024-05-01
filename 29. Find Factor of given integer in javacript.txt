@@ -1,0 +1,29 @@
+29. Find Factor of given integer in javacript   ?
+
+code...
+
+function f(num) {
+    var factors = [];
+    for (var i = 1; i <= num; i++) {
+        if (num % i === 0) {
+            factors.push(i);
+        }
+    }
+    return factors;
+}
+console.log(f(12)); 
+
+
+Output: [1, 2, 3, 4, 6, 12]
+
+
+-------------------------------------------------------------------------------------
+Logic Behind the program...
+
+1.var factors = [];  ---> Create Empty Array.
+
+2.  for (var i = 1; i <= num; i++) {
+        if (num % i === 0) {
+
+3. factors.push(i);   ---> those number which divides the given number 12 push them in 
+                           an Array one by one.

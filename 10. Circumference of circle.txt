@@ -1,0 +1,23 @@
+10. Circumference of circle  ?
+
+Code ...
+
+function f(radius){
+        var Circumference_of_circle=2*3.14*radius;
+        return Circumference_of_circle;
+}
+var z=parseInt(prompt("enter the height value : "));
+var zxc=f(z);
+console.log(zxc);
+
+
+output:-
+
+enter the height value : 20
+125.60000000000001
+
+
+-----------------------------------------------------------------------------------------------
+Area of circle  ----> do code youself...
+
+Pie*r*r (3.14*r*r or 3.14*r**2)   

@@ -1,0 +1,31 @@
+
+Add two numbers using functions and taking user input values.  ?
+
+
+code...
+
+function f(a, b) {
+    var z = a + b;
+    return z;
+}
+
+var userInputA = parseInt(prompt("Enter the value for 'a':"));
+var userInputB = parseInt(prompt("Enter the value for 'b':"));
+
+var zxc = f(userInputA, userInputB); // return value stored in zxc
+console.log(zxc);
+
+
+Output:-
+
+Enter the value for 'a':50
+Enter the value for 'b':20
+70
+
+-------------------------------------------------------------------------------------------
+logic:-
+
+prompt is used to display a dialog box where the user can enter values for 'a' and 'b'.
+
+parseInt is used to convert the user input (which is initially a string) into an
+integer, assuming the user enters numeric values.

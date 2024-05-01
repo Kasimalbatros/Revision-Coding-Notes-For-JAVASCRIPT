@@ -1,0 +1,40 @@
+1.+,-,/,*,%,+1(increment),-1(decrement) operations using single funtion ?
+
+function f(a,b){
+    var z=a+b;
+    var s=a-b;
+    var w=a*b;
+    var r=a/b;
+    var m=a%b;
+    var i=a+1;
+    var d=a-1;
+    console.log(z);
+    console.log(s);
+    console.log(w);
+    console.log(r);
+    console.log(m);
+    console.log(i);
+    console.log(d);
+}
+f(10,15);
+
+or
+ we can taker user input as 
+
+var zxc=f(prompt("enter value : "),prompt("enter second value: "));
+console.log(zxc);
+
+----------------------------------------------------
+Q2. Add two numbers using functions and use return keyword to print value of addition ?
+
+Ans:-
+
+function f(a,b){
+    var z=a+b;
+    return z;
+}
+var zxc=f(20,20);
+console.log(zxc);                output:-//40
+
+Note:- return keyword Returns value which is stored inside new variable zxc.
+we just need to print the value with the hepl of console.log.

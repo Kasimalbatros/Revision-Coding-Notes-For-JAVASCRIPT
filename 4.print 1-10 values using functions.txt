@@ -1,0 +1,31 @@
+4.print 1-10 values using functions  ?
+
+function f(){
+    for(var i=1;i<11;i++){
+        console.log(i);
+    }
+}
+f();
+
+--------------------------------------------------------------------------------
+5.print 1-10 values multiplied by 2  ?
+
+function f(){
+    for(var i=1;i<11;i++){
+        console.log(i*2);
+    }
+}
+f();
+----------------------------------------------------------------------------------------
+6.print 1-10 values multiplied by n  ?
+
+function f(n){
+    for(var i=1;i<11;i++){
+        console.log(i*n);
+    }
+}
+var q=parseInt(prompt("enter the value : "));
+var zxc=f(q);
+console.log(zxc);
+
+-----------------------------------------------------------------------------------------

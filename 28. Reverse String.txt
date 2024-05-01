@@ -1,0 +1,38 @@
+28. Reverse String   ?
+
+code...
+
+function f(str) {
+    var rev = '';
+    for (var i = str.length - 1; i >= 0; i--) {
+        rev =rev + str[i];
+    }
+    console.log(rev);
+}
+f("hello"); 
+
+// Output: "olleh"
+
+---------------------------------------------------------------------------------------
+Logic behind the above program...
+
+ 1. var rev = '';   ---> Create rev as an Empty Variable.
+
+ 2. for (var i = str.length - 1; i >= 0; i--) {
+       
+-----> str.length-1 targets the last character of string
+-----> i >=0 reads all string from back to first.
+-----> i-- helps to read reverse .
+
+
+3.  rev =rev + str[i];   //rev +=str[i];   --->Added Assignment (add value one by one)
+
+Example:-(olleh)  -->   rev store o 
+			after that again loop triggers the ol stores.
+			after that again loop triggers the oll stores.
+			after that again loop triggers the olle stores.
+			after that again loop triggers the olleh stores.
+			now loops get satisfied olleh get printed.
+
+
+

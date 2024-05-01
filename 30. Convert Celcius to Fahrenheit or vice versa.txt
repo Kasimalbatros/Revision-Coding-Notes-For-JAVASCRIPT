@@ -1,0 +1,42 @@
+30. Convert Celcius to Fahrenheit or vice versa   ?
+
+Code...
+
+// Function to convert Celsius to Fahrenheit
+function celsiusToFahrenheit(celsius) {
+    return (celsius * 9/5) + 32;
+}
+
+// Function to convert Fahrenheit to Celsius
+function fahrenheitToCelsius(fahrenheit) {
+    return (fahrenheit - 32) * 5/9;
+}
+
+// Example usage
+var celsiusTemp = 30;
+console.log(celsiusTemp + "°C is " + celsiusToFahrenheit(celsiusTemp) + "°F");
+
+var fahrenheitTemp = 86;
+console.log(fahrenheitTemp + "°F is " + fahrenheitToCelsius(fahrenheitTemp) + "°C");
+
+
+
+
+Output:-
+
+30°C is 86°F
+86°F is 30°C
+
+
+----------------------------------------------------------------------------------------
+logic behind the code...
+
+To convert Celsius to Fahrenheit:
+𝐹=(𝐶×95)+32    , F=(C× 59)+32
+
+To convert Fahrenheit to Celsius:
+𝐶=(𝐹−32)×59   , C=(F−32)× 95
+​
+
+
+

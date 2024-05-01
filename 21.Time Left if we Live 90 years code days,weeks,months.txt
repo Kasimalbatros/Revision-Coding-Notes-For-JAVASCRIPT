@@ -1,0 +1,32 @@
+Time Left if we Live 90 years code days,weeks,months  ?
+
+Take user input and find Time Left if we Live 90 years code days,weeks,months ,
+Assume 365days ,52 weeks, 12months in a year...
+
+--------------------------------------------------------------------------------
+Code :-(without using function)..
+
+var a=prompt("enter your current age");
+var Actualage=90-a;
+var days=Actualage*365;
+var weeks=Actualage*52;
+var months=Actualage*12;
+console.log("you have "+days +"days, "+weeks +"weeks, "+months+"months left. " );
+
+--------------------------------------------------------------------------------
+Code :-(with using function)..
+
+function lifeInWeeks(age){
+
+var Actualage=90-a;
+var days=Actualage*365;
+var weeks=Actualage*52;
+var months=Actualage*12;
+
+console.log("you have "+days +"days, "+weeks +"weeks, "+months+"months left. " );
+}
+lifeInWeeks(56);
+
+note:- age argument is the variable defined and lifeInWeeks(56); is the input value
+passed to the age variable while using functions.
+

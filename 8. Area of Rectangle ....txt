@@ -1,0 +1,19 @@
+8. Area of Rectangle ...   ?
+
+code...
+
+function f(length,breadth){
+        var Area_of_Rectangle=length*breadth;
+        return Area_of_Rectangle;
+}
+var y=parseInt(prompt("enter the base value : "));
+var z=parseInt(prompt("enter the height value : "));
+var zxc=f(y,z);
+console.log(zxc);
+
+
+output:-
+
+enter the base value : 100
+enter the height value : 200
+20000

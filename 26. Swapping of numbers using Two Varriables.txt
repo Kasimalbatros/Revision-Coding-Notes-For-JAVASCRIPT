@@ -1,0 +1,21 @@
+26. Swapping of numbers using Two Varriables  ?
+
+
+code...
+
+function f(a,b){
+    var c;
+c=a;  // it means in C buket we fill a's red water
+a=b;  // it means in a buket we fill b's red water 
+b=c; //it means in b buket we fill c's red water
+console.log(a);
+console.log(b);
+}
+f(10,20)
+
+
+Output:-
+
+20
+10
+

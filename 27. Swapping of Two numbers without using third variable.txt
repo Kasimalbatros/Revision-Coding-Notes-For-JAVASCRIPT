@@ -1,0 +1,51 @@
+27. Swapping of Two numbers without using third variable    ?
+
+
+code...
+
+function f(a,b){;
+a = a + b; // Add both numbers and store the result in 'a'
+b = a - b; // Subtract 'b' from the updated 'a' and store the result in 'b'
+a = a - b; // Subtract the updated 'b' from the updated 'a' and store the result in 'a'
+console.log(a);
+console.log(b);
+}
+f(10,20)
+
+
+output:-
+
+20
+10
+
+
+
+------------------------------------------------------------------------------------------
+logic behind above program...(Clearly Explained below)
+
+initially thinks that 
+
+a contains red water(a's value) 
+b contains blue water(b's value)
+
+1.a=a+b;
+
+---> It means now a's value is red water + blue water;
+
+2.b=a-b;
+
+--->we know a's updated value is red water + blue water;
+    so b's value sholud be red water + blue water;  - blue water
+     now b's updated value is red water.	
+
+3.a=a-b;
+
+--->we know a's updated value is red water + blue water;
+    we know b's updated value is red water;
+    now a's value shold be red water + blue water;  - red water;
+    a's value is blue water;
+
+finally we got (Swapping Achieved)
+a's value is blue water;
+b's value is red water;
+

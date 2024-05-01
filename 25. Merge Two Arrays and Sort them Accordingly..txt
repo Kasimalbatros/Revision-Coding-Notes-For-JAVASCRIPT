@@ -1,0 +1,111 @@
+25. Merge Two Arrays and Sort them Accordingly.   ?
+
+--------------------------------------------------------------------------------------------
+Code...  (Sort the Array in aecending order)
+--------------------------------------------------------------------------------------------
+Example 1  (Simple) ?
+
+function f(){
+    var a1=[5,7];
+    var a2=[6,10];
+    var c=a1.concat(a2);
+    var z=c.sort((a1,a2)=>a1-a2);
+    return z;
+}
+var zxc=f();
+console.log(zxc);
+
+
+Output:-
+
+[ 5, 6, 7, 10 ]
+
+----------------------------------------------------------------------------------------------------
+Example 2  (Simple) ?
+--------------------------------------------------------------------------------------------------
+
+function f(arr1, arr2) {
+    // Merge the arrays using the concat method
+    let mergedArray = arr1.concat(arr2);
+    // Sort the merged array
+    let sortedArray = mergedArray.sort((a, b) => a - b); // Sort in ascending order
+    return sortedArray;
+}
+
+// Example arrays
+let arr1 = [1, 3, 5, 7];
+let arr2 = [2, 4, 6, 8];
+
+// Call the function
+var zxc = f(arr1, arr2);
+console.log(zxc);
+
+
+
+output:-
+
+[
+  1, 2, 3, 4,
+  5, 6, 7, 8
+]
+
+
+----------------------------------------------------------------------------------------------------
+Code...  (Sort the Array in descending order)
+--------------------------------------------------------------------------------------
+Example 1:-
+
+function f(){
+    var a1=[5,7];
+    var a2=[6,10];
+    var c=a1.concat(a2);
+    var z=c.sort((a1,a2)=>a2-a1);   //descending order condition
+    return z;
+}
+var zxc=f();
+console.log(zxc);
+
+
+
+output:-
+
+[ 10, 7, 6, 5 ]
+
+-------------------------------------------------------------------------------------------------
+Example 2
+
+function f(arr1, arr2) {
+    // Merge the arrays using the concat method
+    let mergedArray = arr1.concat(arr2);
+    // Sort the merged array in descending order
+    let sortedArray = mergedArray.sort((a, b) => b - a); // Sort in descending order
+    return sortedArray;
+}
+
+// Example arrays
+let arr1 = [1, 3, 5, 7];
+let arr2 = [2, 4, 6, 8];
+
+// Call the function
+let zxc = f(arr1, arr2);
+console.log(zxc);
+
+
+output:-
+
+[
+  8, 7, 6, 5,
+  4, 3, 2, 1
+]
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+(a, b) : This defines the parameters of the arrow function. In the context of sorting, a and b represent two elements being compared.
+
+=>: This arrow notation indicates that it's an arrow function, which is a concise way of writing function expressions in JavaScript.
+
+a - b: This is the logic for sorting in ascending order. If a should come before b in the sorted array, it returns a negative value. If a should come after b, it returns a positive value. If they are equal, it returns zero. Subtracting b from a 
+ensures that smaller elements come before larger ones, resulting in ascending order.
+
+Similarly,  b - a  gives decending order.

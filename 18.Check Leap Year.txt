@@ -1,0 +1,45 @@
+Check Leap Year ....
+
+--------------------------------------------------------
+code...
+
+function checkLeapYear(year) {
+
+    //three conditions to find out the leap year
+    if ((year % 4 ==0 ) && (year % 100 !=0) || (year % 400== 0)) {
+        console.log(year + ' is a leap year');
+    } else {
+        console.log(year + ' is not a leap year');
+    }
+}
+
+// take input
+const year = prompt('Enter a year:');
+
+checkLeapYear(year);
+-----------------------------------------------------------------------------------
+logic behind it
+
+Here's the breakdown:
+
+Divisible by 4: A year is a potential leap year if it is divisible by 4 without 
+a remainder. For example, 2024 is divisible by 4 (2024 % 4 == 0 is true),
+ so it's a potential leap year.
+
+Not Divisible by 100: If a year is divisible by 100, it's not a leap year, unless 
+it's also divisible by 400. This is because century years (like 1900, 2000, 2100, etc.)
+are not leap years unless they are divisible by  
+400.(century years divisible by 4 and hundred simultaneously thatwhy we use 400).
+
+--------------------------------------------------------------------------------------
+Q1.Why 400 used In Leap year code   ?
+
+Ans:- Century years divisible by 4 and Hundred (100) Simultaneously that's why we use 
+400.
+
+Q2.Why 100 is used In Leap Year code  ?
+
+Ans:- Other then Century years which are not divisible by 100 and divisible by 4. This
+is Leapyear.
+
+--------------------------------------------------------------------------------------

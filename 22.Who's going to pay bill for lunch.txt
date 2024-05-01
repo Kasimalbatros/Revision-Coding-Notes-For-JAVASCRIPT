@@ -1,0 +1,24 @@
+
+Who's going to pay bill for lunch choose Randomly ?
+
+Ans:- Logic
+
+take user input named as "names".
+first we all know that Math.random() gives random number so we target index numbers.
+calculate number of names given (names.length;)
+Math.random()  having range (0-0-9).
+Math.random()*z   means 0*5=0 or 0.9*5=4.99
+so we use Math.floor to get exact number
+var xyz=names[c];  target the index vaue and return
+
+
+
+Code....
+
+
+function a(names){
+    var z=names.length;
+    var c=Math.floor(Math.random()*z);
+    var xyz=names[c];
+    return xyz + " is going to "
+}

@@ -1,0 +1,53 @@
+Factorial
+
+1.print factorial directly...
+
+code...
+
+function f(){
+    var fact=1;
+    for(var i=1;i<=10;i++){
+        fact=fact*i;
+        console.log(fact);
+    }
+    
+}
+f();
+
+
+output:-
+
+1
+2
+6
+24
+120
+720
+5040
+40320
+362880
+3628800
+
+------------------------------------------------------------------------------------
+2.Print Factorial taking user input.
+
+code...
+
+function f(n){
+    var fact=1;
+    for(var i=1;i<=n;i++){
+        fact=fact*i;
+       
+    }
+     return fact;
+}
+var userA=parseInt(prompt("enter any integer number : "));
+var zxc=f(userA);  // remember return value stored in zxc we just need to print then wuth the help of console.log(zxc);
+console.log("you get factorial of "+userA+" number :  "+zxc);
+
+
+
+output:-
+
+enter any integer number : 5
+you get factorial of 5 number :  120

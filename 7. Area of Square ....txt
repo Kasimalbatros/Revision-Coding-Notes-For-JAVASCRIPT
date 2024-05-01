@@ -1,0 +1,17 @@
+7. Area of Square ...    ?
+
+code ....
+
+function f(side){
+        var Area_of_Square=side*side;
+        return Area_of_Square;
+}
+var z=parseInt(prompt("enter the height value : "));
+var zxc=f(z);
+console.log(zxc);
+
+
+output:-
+
+enter the height value : 20
+400

@@ -1,0 +1,18 @@
+24. Merge two or more Arrays ...   ?
+
+Code:-
+
+function f(){
+    var a=[1,2];
+    var b=[3,4];
+    var c=[5,6]
+    var d=a.concat(b);
+    var e=d.concat(c);
+    console.log(e);
+}
+f();
+
+
+Output:-
+
+[ 1, 2, 3, 4, 5, 6 ]

@@ -1,0 +1,21 @@
+12. Number Ends with 7 or not using function and taking user input   ?
+
+
+function f(a){
+    if(a%10==7){
+        return "The number Ends with 7";
+    }else{
+        return "Not Ending with 7";
+    }
+}
+var userA=parseInt(prompt("enter any integer no: "));
+var zxc=f(userA);   // remember the return value stored in zxc.
+console.log(zxc);
+
+
+output:-
+
+enter any integer no: 17
+The number Ends with 7
+
+

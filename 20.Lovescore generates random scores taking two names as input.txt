@@ -1,0 +1,12 @@
+Lovescore generates random scores taking two names as input   ?
+
+var a=prompt("enter your first name : ");
+var b=prompt("enter your second name : ");
+var lovescore=Math.random()*100;
+lovescore=Math.floor(lovescore)+1;
+console.log(lovescore+"%");
+
+
+var lovescore=Math.random()  ---> generates random number b/w 0 - 0.99(16 digits).
+var lovescore=Math.random()*100;  ---> generates random number b/w 0 - 98.99(16 digits).
+lovescore=Math.floor(lovescore)+1; --->   generates random number b/w 0 - 99(exact numbers).

@@ -1,0 +1,20 @@
+6. Area of Triangle  ...   ?
+
+
+Code...
+
+function f(base,height){
+        var Area_of_Triangle=1/2*base*height;
+        return Area_of_Triangle;
+}
+var y=parseInt(prompt("enter the base value : "));
+var z=parseInt(prompt("enter the height value : "));
+var zxc=f(y,z);
+console.log(zxc);
+
+
+output:-
+
+enter the base value : 2
+enter the height value : 10
+10

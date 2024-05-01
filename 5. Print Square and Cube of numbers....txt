@@ -1,0 +1,49 @@
+5. Print square of numbers...   ?
+
+code...
+
+function f(){
+    for(var i=1;i<11;i++){
+        console.log(i*i);
+    }
+}
+f();
+
+output:-
+
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+
+----------------------------------------------------------------------------------
+6.Print the Cube of values ...  ?
+
+Code...
+
+function f(){
+    for(var i=1;i<11;i++){
+        console.log(i*i*i);
+    }
+}
+f();
+
+
+output :-
+
+1
+8
+27
+64
+125
+216
+343
+512
+729
+1000

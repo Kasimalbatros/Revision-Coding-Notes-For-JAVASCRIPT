@@ -1,0 +1,42 @@
+
+13. NUmber is divisible by 7 and ends with 7 using function taking user input   ?
+
+code:-
+
+function f(a){
+    if(a%7==0 && a%10==7){
+        return "both";
+    }else if(a%10==7) {
+        return "Number ends with 7";
+    }else if(a%7==0){
+        return "The number is divisble by 7";
+    }else{
+        return "nothing";
+    }
+}
+var userA=parseInt(prompt("enter any integer no: "));
+var zxc=f(userA);
+console.log(zxc);
+
+
+output:-
+
+enter any integer no: 7
+both
+
+output:-
+
+enter any integer no: 17
+Number ends with 7
+
+
+output:-
+
+enter any integer no: 70
+The number is divisble by 7
+
+
+output:-
+
+enter any integer no: 23
+nothing

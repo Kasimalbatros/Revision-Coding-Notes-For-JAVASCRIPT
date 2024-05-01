@@ -1,0 +1,21 @@
+11. Number is Divisible by 7 or not using functions taking user input  ?
+
+Code...
+
+
+function f(a){
+    if(a%7==0){
+        return "The number is divisibe by 7";
+    }else{
+        return "Not Divisible";
+    }
+}
+var userA=parseInt(prompt("enter any integer no: "));  //remember return value stored inside zxc
+var zxc=f(userA);
+console.log(zxc);
+
+
+output:-
+
+enter any integer no: 7
+The number is divisibe by 7
