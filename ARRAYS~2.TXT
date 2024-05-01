@@ -1,0 +1,34 @@
+Arrays 
+
+
+for 15-22 minutes 30 sec..  notes
+
+
+Var a=["a","b","c"];
+console.log(a);
+
+Or we can use for loop to print all element of an Array.
+
+Var a=["a","b","c"];
+for(var i=0;i<a.length;i++){
+console.log(a);
+}  
+
+
+
+or we can use for of loop to print all element of an Array.
+
+Var a=["a","b","c"];
+for(let z of a){
+console.log(z);
+}
+
+
+We can Simply add Uppercase and Print All events of Array at the same time.
+
+Var a=["a","b","c"];
+for(var i=0;i<a.length;i++){
+console.log(a.toUpperCase());
+}  
+
+---------------------------Upto 22 minutes and 30 second-------------------

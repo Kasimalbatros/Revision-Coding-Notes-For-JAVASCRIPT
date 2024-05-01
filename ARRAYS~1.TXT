@@ -1,0 +1,22 @@
+Arrays.
+
+
+1 to 15 minutes notes:-
+
+Var a=["a","b","c"];
+console.log(a);
+
+Now Change the Value of Particular index.(Called as Mutable Property.)
+Arrays are mutable in javascript.
+
+Simply Write..
+a[1]=hello;
+console.log(a);
+
+now output is:-
+a,hello,c
+
+Above is an example to show that Arrays are mutable in javascript.
+
+But Same thing in String data structure we are unable to perform because 
+Strings are Immutable in Javascript.

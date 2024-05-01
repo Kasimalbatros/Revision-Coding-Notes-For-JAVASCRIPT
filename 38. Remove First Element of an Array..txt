@@ -1,0 +1,3 @@
+38. Remove First Element of an Array.   ?
+
+using Shift method in an array ...  

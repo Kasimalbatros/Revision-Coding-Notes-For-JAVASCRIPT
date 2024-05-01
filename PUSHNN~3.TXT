@@ -1,0 +1,18 @@
+push n number of elements in your Array.   ?  (Video 106 in Udemy.)
+
+code...
+
+function f(n){
+    var a=[];
+    for(var i=0;i<n;i++){
+        var c=a.push(i);
+    }
+    console.log(a);
+}
+f(5);
+
+
+
+output...
+
+[ 0, 1, 2, 3, 4 ]

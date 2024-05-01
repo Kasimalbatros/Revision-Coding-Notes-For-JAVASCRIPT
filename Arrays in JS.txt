@@ -1,0 +1,97 @@
+A
+rray in JS
+
+Array Methods
+
+:- Soultion and practice Present in Javascript 2024.(Lecture 4.Arrays 1hr video)
+
+
+Notes:- push and unshift methods are simliar but push add at the end and unshift add at
+the start.
+
+
+Note:-pop and shift methods are simliar but pop deletes at the end and shift delete at
+the start.
+-------------------------------------------------------------------------------------
+push(): add to end  ((unshift(): add to the start))
+
+Ex:-
+var a=["apple","banana","grapes"];
+var b=a.push("watermelon");
+console.log(a);
+--------------------------------------------------------------------------------------
+pop(): delete from end & return      ((shift(): delete from end & return))
+
+Ex:-
+var a=["apple","banana","grapes","watermelon"];
+var b=a.pop();
+console.log(a);
+---------------------------------------------------------------------------------------
+
+toString():converts array to string
+
+Ex:-
+var a=["apple","banana","grapes","watermelon"];
+console.log(a.toString());
+
+---------------------------------------------------------------
+
+Concat():joins multiple arrays & returns result
+
+Ex:-
+var a=["apple","banana","grapes","watermelon"];
+var b=["peanut butter","bread","water"];
+var c=a.concat(b);
+console.log(c);
+----------------------------------------------------------------------
+
+unshift():add to start
+
+Ex:-
+var a=["apple","banana","grapes"];
+var b=a.unshift("watermelon");
+console.log(a);
+
+------------------------------------------------------------------------
+
+shift():delete from start & return
+
+Ex:-
+var a=["apple","banana","grapes"];
+var b=a.shift();
+console.log(a);
+
+-------------------------------------------------------------------------------------
+
+
+Slice():returns a piece of the array
+
+	slice(startldx,endldx)
+
+Ex:-
+
+var a=["apple","banana","grapes"];
+var b=a.slice(0,1);
+console.log(b);
+
+--------------------------------------------------------------------------------------------
+
+Splice(): Change original array(add,remove,replace)
+	splice(startldx,delCount,newEl1...)
+
+Ex:- 
+var a=[1,2,3,4,5,6,7];
+var b=a.splice(2,1,101);
+console.log(a);
+
+---------------------------------------------------------------------------------------------
+
+
+
+after Learning Above methods clearly....
+
+Q1. create an array to store companies ->"Bloomberg","Microsoft","Uber","Google","IBM","Netflix"  ?
+
+a.Remove the first company from the Array.
+b.Remove Uber & Add Ola in its Place.
+c.Add Amazon at the end.

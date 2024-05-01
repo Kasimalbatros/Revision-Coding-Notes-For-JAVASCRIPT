@@ -1,0 +1,34 @@
+Arrays Q1.  
+
+
+Q1.For a fiven Array with Marks of Students  -->[85,97,44,37,76,60].
+find the Average Marks of Entire Class  ?
+
+Ans:-
+
+Using For Loop
+
+const marks = [85, 97, 44, 37, 76, 60];
+let sum = 0;
+
+for (let i = 0; i < marks.length; i++) {
+  sum += marks[i];  ---------------------------> //(sum=sum+marks[i];)
+}
+
+const average = sum / marks.length;
+console.log(`Average marks of the entire class: ${average}`);
+
+------------------------------------------------------------------------
+
+Using For of Loop to solve..
+
+const marks = [85, 97, 44, 37, 76, 60];
+let sum = 0;
+
+for (let i of marks) {
+  sum += i;  //---------------------------> //(sum=sum+i;)
+}
+
+const average = sum / marks.length;
+console.log(`Average marks of the entire class: ${average}`);
+

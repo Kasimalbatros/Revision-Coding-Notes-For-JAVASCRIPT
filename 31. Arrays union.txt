@@ -1,0 +1,74 @@
+Array union...
+
+code...
+
+function f(){
+    var a=[1,2,5];
+    var b=[6,2,3];
+    var union = [];
+    
+    // Push elements of array 'a' to 'union'
+    for (var i = 0; i < a.length; i++) {
+        if (!union.includes(a[i])) {
+            union.push(a[i]);
+        }
+    }
+    
+    // Push elements of array 'b' to 'union'
+    for (var j = 0; j < b.length; j++) {
+        if (!union.includes(b[j])) {
+            union.push(b[j]);
+        }
+    }
+    
+    console.log(union);
+}
+f()
+
+Example:-
+
+[ 1, 2, 5, 6, 3 ]
+
+
+
+-----------------------------------------------------------------------------------------------------
+Logic behind the code...
+
+includes(a[i]): The includes() method is used to check if a particular element exists in an array. 
+In this case, we're checking if the current element a[i] exists in the union array.
+Now, let's analyze the condition:
+
+!union.includes(a[i]): The ! operator negates the result of union.includes(a[i]).
+ So, if a[i] is not already in the union array, union.includes(a[i]) will return false, and !union.includes(a[i]) will become true.
+If the condition !union.includes(a[i]) is true, it means that the current element a[i] is not already present in the union array.
+So, the code inside the if block will execute, and the current element a[i] will be added to the union array using the push() method.
+----------------------------------------------------------------------------------------------------------------
+
+Another way of doing Arrays Union...
+
+function f(){
+    var a=[1,2,5];
+    var b=[6,2,3];
+    var union=[...a,...b];
+    console.log([...new Set(union)]);
+}
+f();
+
+
+output:-
+
+[ 1, 2, 5, 6, 3 ]
+
+
+----------------------------------------------------------------------------------------
+Logic behind the code...
+
+... is Spread Operator in javascript.
+
+The Set constructor is used to create a new Set object from the union array.
+A Set is a collection of unique elements, so any duplicate elements 
+in the union array will be removed.
+
+By using [...new Set(union)],  
+the Set is converted back into an array while ensuring that only unique elements are
+retained.

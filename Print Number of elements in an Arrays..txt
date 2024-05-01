@@ -1,0 +1,4 @@
+Print Number of elements in an Arrays.   ?
+
+var a=["Angela","rohan","vijay"];
+console.log(a.length);

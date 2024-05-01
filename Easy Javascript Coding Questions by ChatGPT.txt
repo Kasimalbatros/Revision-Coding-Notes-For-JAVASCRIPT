@@ -1,0 +1,45 @@
+Easy Javascript Coding Questions by ChatGPT   ?
+
+
+
+1. Calculate the Sum of Array Elements  ?
+
+2. Reverse a String ?
+
+3. Check For Palindrome  ?
+
+4. Fizz Buzz(Already Completed) ?
+
+5. Count Vowels of String (Already Completed) ?
+
+6. Factorial (Already Completed) ?
+
+7. Check Prime Number ?  (Important think is the Logic behind the code.) ?
+
+8. Find the Longest Word in String ?
+
+9. Reverse words in String ?(Hello world changes to World Hello).
+
+10.Check for Even or Odd number  ?
+
+11. Remove Dublicates from an Array ?
+
+12. Capitalised the first letter of word (Already Completed) ?
+
+13. Find Second Largest Number in an Array  ?
+
+14. Fibonacci Series (Already Completed) ?
+
+15. Check for Anagrams (means takes two input string contains same characters in
+ a different order then true otherwise false)  ?
+
+16. Find the Factorial of Large number ?
+
+17. Check for Armstrong Number ?
+
+18. Reverse a Linked List  ? 
+
+-------------------------------------------------------------------------------------
+Solve Above Questions which you did't solve previously and makes notepad notes and
+saved in this folder.
+-------------------------------------------------------------------------------------

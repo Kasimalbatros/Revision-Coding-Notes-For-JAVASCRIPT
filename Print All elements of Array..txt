@@ -1,0 +1,4 @@
+Print All elements of array.  ?
+
+var a=["Angela","rohan","vijay"];
+console.log(a);

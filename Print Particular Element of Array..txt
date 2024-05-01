@@ -1,0 +1,4 @@
+Print Particular Element of Array.  ?
+
+var a=["Angela","rohan","vijay"];
+console.log(a[1]);

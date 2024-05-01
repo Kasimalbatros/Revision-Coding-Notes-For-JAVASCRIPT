@@ -1,0 +1,12 @@
+Adding new element to Array.    ?
+
+var a=[1,2];
+console.log(a.push(10));
+console.log(a);
+
+new items always get added from end of array.
+
+output:- 
+
+3
+[ 1, 2, 10 ]

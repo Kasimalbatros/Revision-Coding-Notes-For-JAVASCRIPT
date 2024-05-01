@@ -1,0 +1,3 @@
+40. Remove any particular Element of an Array.   ?
+
+Do it youself

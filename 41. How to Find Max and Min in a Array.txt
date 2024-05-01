@@ -1,0 +1,38 @@
+41. How to Find Max and Min in a Array   ?
+
+First Code...
+
+Using Math.max() and Math.min() with the spread operator (...):
+
+javascript
+Copy code
+
+const numbers = [5, 2, 9, 1, 7];
+const max = Math.max(...numbers);
+const min = Math.min(...numbers);
+console.log("Max:", max); // Output: Max: 9
+console.log("Min:", min); // Output: Min: 1
+
+
+-------------------------------------------------------------------------------------------------
+
+Second Code (Alternative Code)...
+
+Using a loop:
+
+javascript
+Copy code
+
+const numbers = [5, 2, 9, 1, 7];
+let max = numbers[0];
+let min = numbers[0];
+for (let i = 1; i < numbers.length; i++) {
+    if (numbers[i] > max) {
+        max = numbers[i];
+    }
+    if (numbers[i] < min) {
+        min = numbers[i];
+    }
+}
+console.log("Max:", max); // Output: Max: 9
+console.log("Min:", min); // Output: Min: 1

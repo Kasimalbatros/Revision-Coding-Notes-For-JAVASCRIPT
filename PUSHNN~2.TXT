@@ -1,0 +1,18 @@
+Push n number of elements in your array and simultaneously 
+add 10 in each elements of array.   ?
+
+code...
+
+function f(n){
+    var a=[];
+    for(var i=0;i<n;i++){
+        var c=a.push(i+10);
+    }
+    console.log(a);
+}
+f(5);
+
+
+output:-
+
+[ 10, 11, 12, 13, 14 ]

@@ -1,0 +1,27 @@
+Arrays Q2
+
+
+Q2.for a given array with prices of 5 itmes  -->[200,300,400,500,600]
+all items have an offer of 10% OFF on them. Change the Array to store Final
+ Price after ?
+
+Ans:-
+
+Our code takes how much OFF you want just type n value.
+
+var a=[200,300,400,500,600];
+var n=prompt("enter how much percent OFF you want to give  :");
+for (var i=0;i<a.length;i++){
+    var offer=a[i]*n/100;
+    var zxc=a[i]-offer;
+    console.log("Values after applying "+n+"% OFF in each Item  :-  "+zxc);
+}
+
+output:-
+
+enter how much percent OFF you want to give  :20
+Values after applying 20% OFF in each Item  :-  160
+Values after applying 20% OFF in each Item  :-  240
+Values after applying 20% OFF in each Item  :-  320
+Values after applying 20% OFF in each Item  :-  400
+Values after applying 20% OFF in each Item  :-  480

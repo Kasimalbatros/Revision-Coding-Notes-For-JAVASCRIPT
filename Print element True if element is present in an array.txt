@@ -1,0 +1,12 @@
+Print element True if element is present in an array.  ?
+
+var a=["Angela","rohan","vijay"];
+console.log(a.includes("Angela"));
+
+
+output:-
+
+true
+
+
+note:- If specific element is not present then return False.

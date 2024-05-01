@@ -1,0 +1,28 @@
+
+System Welcomes you if your name in an array otherwise gives 
+message sorry,maybe next time  ?
+
+
+code...
+ 
+var a=["Angela","rohan","vijay"];
+var guestname=prompt("enter your name : ");
+if(a.includes(guestname)){
+    console.log("welcome")
+    }
+    else
+    {
+        console.log("Sorry, maybe Next Time")
+    }
+
+
+output 1:-
+
+enter your name : a
+Sorry, maybe Next Time
+
+
+output 2:-
+
+enter your name : Angela
+welcome
